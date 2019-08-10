@@ -1,10 +1,14 @@
+body {
+	background-color: #3b5960;
+}
+
 form {
 	width: 500px;
-	background-color: #bdc7d8;
-	margin: 50px auto;
+	background-color: #fff;
+	margin: 0 auto;
 	/*margin-top: 50px;*/
-	padding: 10px 10px 10px 10px;
-	border-radius: 10px;
+	padding: 5px 15px;
+	border-radius: 15px;
 	/*display: block;*/
 }
 
@@ -14,6 +18,8 @@ form input {
 
 h2 {
 	text-align: center;
+	font-family: Verdana;
+
 }
 
 #user_id {
@@ -28,20 +34,38 @@ select,
 textarea
 
 {
-	width: 200px;
+	width: 230px;
+	height: 23px;
 	margin: 12px 12px;
+	vertical-align:middle;
+	font-family: Verdana;
+	border: 1px solid #376eee;
 }
 
 label {
-	padding-left: 15px;
+	padding-left: 5px;
+	font-family: Verdana;
 }
 
 button {
 	text-align: center;
 	width: 100px;
 	padding: 5px 5px;
-	border-radius: 5px;
+	border-radius: 50px;
 	margin: 20px 190px;
+	font-size: 15px;
+	/*font-weight: bold;*/
+	font-family: Verdana;
+	cursor: pointer;
+	background-color: #1766ee;
+	color: #fff;
+	border: none;
+	line-height: 25px;
+}
+
+button:hover {
+	background-color: #365899;
+	border-color: #29487d;
 }
 
 #password {

@@ -13,6 +13,7 @@
 <body>
 	<div>
 		<form>
+		<h2>Registration Form</h2>
 		<span><label for="user_id">User id:</label></span>
 		<input id="user_id" type="text"></br>
 		
@@ -22,28 +23,39 @@
 		<label for="name">Name:</label>
 		<input id="name" type="text"></br>
 		
-		<label for="">Address:</label>
+		<label for="address">Address:</label>
 		<input id="address" type="text"></br>
 		
-		<label for="">Country:</label>
-		<select id="country" placeholder="(Please select a country)"></select></br>
+		<label for="country">Country:</label>
+		<select id="country">
+			<option>
+				(Please select a country)
+			</option>
+		</select></br>
 		
-		<label for="">ZIP Code:</label>
+		<label for="zip">ZIP Code:</label>
 		<input id="zip" type="text"></br>
 		
-		<label for="">Email:</label>
+		<label for="email">Email:</label>
 		<input type="email"></br>
 
 		<label for="">Sex:</label>
-		<input type="radio" name="gender" value="Male">Male
-		<input type="radio" name="gender" value="Female">Female</br>
+		<input type="radio" id="male" name="gender" value="Male">
+		<label for="male">Male</label>
+
+		<input type="radio" id="female" name="gender" value="Female">
+		<label for="female">Female</label></br>
 
 		<label for="">Language:</label>
-		<input type="checkbox" value="English">English
-		<input type="checkbox" value="Non English">Non English</br>
+		<input id="english" type="checkbox" value="English">
+		<label for="english">English</label>
+
+		<input id="non-english" type="checkbox" value="Non English">
+		<label for="non-english">Non English</label>
+		</br>
 
 		<label for="">About:</label>
-		<textarea></textarea> </br>
+		<textarea rows="4" cols="50"></textarea></br>
 
 		<button>Submit</button></br>
 		</form>
