@@ -23,19 +23,29 @@ h2 {
 
 input[type="text"],
 input[type="password"],
-input[type="email"]
+input[type="email"],
+select,
+textarea
+
 {
 	width: 200px;
+	margin: 12px 12px;
 }
 
 label {
-	/*float: left;*/
-	text-align: left;
-	display: inline-block;
+	padding-left: 15px;
+}
+
+button {
+	text-align: center;
+	width: 100px;
+	padding: 5px 5px;
+	border-radius: 5px;
+	margin: 20px 190px;
 }
 
 #password {
-	/*display: block;*/
+	
 }
 
 #name {
