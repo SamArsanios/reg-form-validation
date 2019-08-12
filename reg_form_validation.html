@@ -12,7 +12,7 @@
 
 <body>
 	<div>
-		<form>
+		<form onSubmit="return validate()">
 		<h2>Registration Form</h2>
 		<span><label for="user_id">User id:</label></span>
 		<input id="user_id" type="text"></br>
@@ -29,8 +29,13 @@
 		<label for="country">Country:</label>
 		<select id="country">
 			<option>
-				(Please select a country)
+				<!-- (Please select a country) -->
 			</option>
+			<option>Egypt</option>
+			<option>Uganda</option>
+			<option>Canada</option>
+			<option>Burma</option>
+			<option>India</option>
 		</select></br>
 		
 		<label for="zip">ZIP Code:</label>
@@ -57,7 +62,7 @@
 		<label for="">About:</label>
 		<textarea rows="4" cols="50"></textarea></br>
 
-		<button type="submit" onclick="validate()">Submit</button></br>
+		<button type="submit">Submit</button></br>
 		</form>
 	</div>
 	<script src="reg_validate.js"></script>

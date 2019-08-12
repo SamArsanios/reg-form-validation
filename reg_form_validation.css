@@ -19,6 +19,7 @@ form input {
 h2 {
 	text-align: center;
 	font-family: Verdana;
+	border-bottom: 1px solid #1766ee;
 
 }
 
@@ -39,7 +40,7 @@ textarea
 	margin: 12px 12px;
 	vertical-align:middle;
 	font-family: Verdana;
-	border: 1px solid #376eee;
+	/*border: 1px solid #376eee;*/
 }
 
 label {
