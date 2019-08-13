@@ -1,9 +1,11 @@
+/* styling the body with a background colour*/
 body {
 	background-color: #3b5960;
 }
 
+/*styling the form in which all the elements are enclosed in.*/
 form {
-	width: 500px;
+	width: 580px;
 	background-color: #fff;
 	margin: 0 auto;
 	/*margin-top: 50px;*/
@@ -12,10 +14,12 @@ form {
 	/*display: block;*/
 }
 
+/* addiing bottom margin to the input fields */
 form input {
 	margin-bottom: 30px;
 }
 
+/* styling the h2 tag*/
 h2 {
 	text-align: center;
 	font-family: Verdana;
@@ -23,37 +27,61 @@ h2 {
 
 }
 
-#user_id {
-	/*float: left;*/
-	/*display: inline-block;*/
+/* giving width to user id and password input fields*/
+table tr td .credential {
+	width: 150px;
 }
 
-input[type="text"],
+/* giving width to name and adress input fields*/
+.name-adress {
+	width: 290px;
+}
+
+/* styling some input fields*/
+input[type="text"] ,
 input[type="password"],
 input[type="email"],
-select,
-textarea
+input[type="radio"],
+input[type="checkbox"],
+select 
 
 {
-	width: 230px;
-	height: 23px;
-	margin: 12px 12px;
+	/*width: 200px;*/
+	height: 20px;
+	margin: 10px 0px 5px 0px;
 	vertical-align:middle;
 	font-family: Verdana;
-	/*border: 1px solid #376eee;*/
+	/*border: 1px solid #376eee;*/ 
+  	border: 1px solid rgb(122, 122, 139);
+  	border-radius: 5px;
 }
 
-label {
+/* adding style to the labels in the form*/
+.labels {
 	padding-left: 5px;
 	font-family: Verdana;
+	vertical-align: middle;
+	float: right;
 }
 
+/* adding padding from the left to the warning messages
+to push it away from the textboxes of gender and language on their left*/
+.warningMessage {
+	padding-left: 10px;
+}
+
+/*giving radius to the border of the textarea */
+#textarea {
+	border-radius: 5px;
+}
+
+/* styling the submit button*/
 button {
 	text-align: center;
 	width: 100px;
 	padding: 5px 5px;
 	border-radius: 50px;
-	margin: 20px 190px;
+	margin: 20px 225px;
 	font-size: 15px;
 	/*font-weight: bold;*/
 	font-family: Verdana;
@@ -64,24 +92,11 @@ button {
 	line-height: 25px;
 }
 
+/* changing the background colour and border colour
+ of the button when a mouse hovers over it*/
 button:hover {
 	background-color: #365899;
 	border-color: #29487d;
 }
 
-#password {
-	
-}
-
-#name {
-	/*display: block;*/
-}
-
-#address {
-	/*display: block;*/
-}
-
-#country {
-	/*display: block;*/
-}
 
